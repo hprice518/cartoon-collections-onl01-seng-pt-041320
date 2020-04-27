@@ -17,7 +17,7 @@ def long_planeteer_calls(elements)
 end
 
 def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheeses = ["cheddar", "gouda", "camembert"]
   snack = nil 
   array.each do |cheese|
     cheese.include?(cheese)
